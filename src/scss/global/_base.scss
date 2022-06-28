@@ -1,0 +1,18 @@
+@use "../abstract/variables" as *;
+
+body {
+  background-color: $main-bg;
+  font-family: $font-rg;
+  font-weight: 400;
+  color: $white;
+  font-size: 0.875rem;
+}
+
+.container {
+  padding: 0 1.25rem;
+  max-width: 100%;
+}
+
+main {
+  position: relative;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "fylo-dark-theme-landing-page",
+  "version": "1.0.0",
+  "description": "Fylo dark theme landing page from the Frontend Mentor",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "dev": "parcel",
+    "format": "prettier --write \"src/**/*.{html,css,scss,js,ts,json}\"",
+    "start": "serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unkovicgit/fylo-dark-theme-landing-page.git"
+  },
+  "keywords": [
+    "HTML",
+    "TypeScript",
+    "SCSS",
+    "Parcel"
+  ],
+  "author": "Nemanja Unković <nemanjau@pm.me> (https://github.com/unkovicgit)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unkovicgit/fylo-dark-theme-landing-page/issues"
+  },
+  "homepage": "https://github.com/unkovicgit/fylo-dark-theme-landing-page#readme",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "prettier": "^2.7.1"
+  }
+}

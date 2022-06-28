@@ -1,0 +1,35 @@
+@use "../abstract/variables" as *;
+
+.quotes {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+.quote {
+  background-color: $test-bg;
+  margin-bottom: 1.5rem;
+  padding: 1.875rem 1.25rem;
+  font-size: 0.65rem;
+  border-radius: 0.5rem;
+
+  &__blc {
+    margin-bottom: 1.25rem;
+  }
+
+  &__user {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: auto 1fr;
+    font-size: 0.6rem;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__avatar {
+    width: 1.5rem;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,22 @@
+@use "../abstract/variables" as *;
+
+.about {
+  text-align: center;
+}
+
+.card {
+  &:not(:last-of-type) {
+    margin-bottom: 5.5rem;
+  }
+
+  &__img {
+    margin-bottom: 2.25rem;
+  }
+
+  &__title {
+    font-family: $font-tl;
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+}

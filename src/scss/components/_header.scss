@@ -1,0 +1,61 @@
+@use "../abstract/variables" as *;
+
+.header {
+  background: url(../images/bg-curvy-mobile.svg) 50%,
+    linear-gradient($intr-bg 0, $intr-bg 57%, $main-bg 57%, $main-bg 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 1.5rem;
+  padding-bottom: 8rem;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.125rem;
+  }
+
+  &__link {
+    img {
+      display: block;
+      width: 5rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+
+  &__intro {
+    text-align: center;
+  }
+
+  &__img {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  &__title {
+    font-family: $font-tl;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__desc {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__btn {
+    background-color: $blue;
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10rem;
+    font-weight: 700;
+  }
+}
